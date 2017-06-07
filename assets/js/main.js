@@ -436,5 +436,8 @@ function doSubmit()
 				document.aboutme.disease.value = "";
 				document.aboutme.dogname.value = "none";
 				document.aboutme.born.value = "";
+				document.aboutme.friendnames.value = "none";
+				document.aboutme.friends.value = "";
+				document.aboutme.family.value = "";
 				return;
 			}
