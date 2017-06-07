@@ -103,7 +103,41 @@
 								<hr>
 								<h3>Groups</h3>
 								<p>When I was in elementary school, I was a part of Boy Scouts Pack <b>612</b></p>
-								</figure>
+							<hr>
+							</figure>
+									<body onLoad="cycle();">
+								<center>
+								<img name="banner" src="01.gif" />
+			
+								</center>
+								</body>
+							<script>
+												imgArray=new Array(5);
+										imgArray[0]=new Image
+										imgArray[0].src="images/gif/01.gif"
+										imgArray[1]=new Image
+										imgArray[1].src="images/gif/2.gif"
+										imgArray[2]=new Image
+										imgArray[2].src="images/gif/3.gif"
+										imgArray[3]=new Image
+										imgArray[3].src="images/gif/4.gif"
+										imgArray[4]=new Image
+										imgArray[4].src="images/gif/5.gif"
+										var index=0
+			
+										function cycle()
+										{
+										document.banner.src=imgArray[index].src
+										index++
+										if(index===5)
+										{
+										index=0
+										}
+										setTimeout("cycle()",2000)
+										return;
+										}
+						</script>
+						<p><i>Me, from Baby to Now</i><p>
 							<a href="#past">Return to Top</a>
 							</article>
 
@@ -214,6 +248,8 @@
 								<p>After high school, I would to take a one year break from all schooling</p>
 								<h3>Where do i see myself in 10 years?</h3>
 								<p>Dumpster diving for food, so I can survive.</p>
+								<p><i>But if everything goes well...</i></p>
+								<p>I would see myself living in either downtown St.Paul, in a small apartment, or moving to a warmer state, like Texas.</p>
 							</article>
 							<!-- Cites -->
 							<article id="cites">
