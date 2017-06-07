@@ -52,7 +52,8 @@
 								<p>I was born in Regions hospital in St.Paul.</p>
 								<p>When I was born, so was my twin brother Matthew, my Aunt gave my parents the song "With Arms Wide Open" by Creed, on the day of my birth, this song was #1 on the Billboard Hot 100</p>
 								<span class="image main"><img src="images/creed.jpg" alt="creed" style="width:200px;height:200px;"/></span>
-								
+								<h3>Some more quick facts about me.</h3>
+								<p>In 2009 I was diagnosed with Celiac Disease, a genetic autoimmune disorder that makes the ingestion of gluten lead to damage to the small intestine.</p>
 							</article>
  
 						<!-- Past -->
@@ -231,8 +232,8 @@
 							<hr>
 							<h3><i>The place's i've been</i></h3>
 							<img src="images/america.jpg" alt="america got nuked by the great North Korea, send help." style="width:600px;height:400px;"/>
-							<h3>What's "Dank" about high school.</h3>
-							<p><i>I would have to say the dankest part is the amount of freedom that is now accessible to me, I choose most of my classes, and I choose how much work I put into all of my stuff, this is the greatest time i've ever had in my school life.</i></p>
+							<h3>What's the best class in high school.</h3>
+							<p>I would have to say my top 3 would have to be Electronics, Web page Coding, and Gym.</p>
 							<a href="#present">Return to Top</a>
 							</article>
 							
@@ -260,8 +261,72 @@
 							</article>
 							<!--Form-->
 							<article id="form">
+							<body>
 								<h2 class=“cites”>Form</h2>
-								<p>this is the form</p>
+								<form name="aboutme">
+								<div id="header">
+						</div>
+		
+						<div id="q1">
+						<h3><center>Answer some simple questions about me!</center></h3>
+						<br>
+						<ul>
+						<li>What is my Name?: &nbsp;&nbsp&nbsp;<input name="name" type="text" size=50>
+				
+						What High School do I go to?: 
+						<select name="highschool" id="select">
+						<option value="none">--Select a School--</option>
+						<option value="AHS">Anoka High School</option>
+						<option value="BHS">Blaine High School</option>
+						<option value="CRHS">Coon Rapids High School</option>
+						<option value="CPHS">Champlin Park High School</option>
+						<option value="AndHS">Andover High School</option>
+						</select>
+				
+				<li>What's my favorite color?: <input name="color" type="text" size=50><br>
+			</ul>
+		</div>
+		
+		<div id="q2">
+			<h3>Which Classes do I enjoy?</h3>
+			<input name="class" type="checkbox">Electronics<br>
+			<input name="class" type="checkbox">Math and Science Classes<br>
+			<input name="class" type="checkbox">Gym<br>
+		</div>
+		<div id="q3">
+			<h3>What disease was I diagnosed with in 2009?</h3> <input name="disease" type="text" size=20>
+		<div id="q4">
+			<h3>What is the name of my Dog?</h3>
+				<select name="dogname" id="select">
+						<option value="none">--Select my dogs name.--</option>
+						<option value="ava">Ava</option>
+						<option value="scarlett">Scarlett</option>
+						<option value="hunter">Hunter</option>
+						<option value="chad">Chad</option>
+						</select>
+		</div>
+		<div id="q5">
+		<h3>What hospital was I born in?</h3> <input name="born" type="text" size=20>
+		</div>
+		<div id="q6">
+		<h3>How many people are in my family?</h3> <input name="family" type="text" size=2>
+		</div>
+		<div id="q7">
+	<h3>How many people are written on my Friends List?</h3> <input name="friends" type="text" size=13>
+		</div>
+		<div id="q8">
+					<select name="bffnames" id="select">
+						<option value="none">--Select the names of my two best friends.--</option>
+						<option value="ava">Ava</option>
+						<option value="scarlett">Scarlett</option>
+						<option value="hunter">Hunter</option>
+						<option value="chad">Chad</option>
+						</select>
+		</div>
+		<br><br>
+		<input type="button" value="Submit Answers" onclick="doSubmit()">
+		<input type="button" value="Clear Entries" onclick="doClear()">
+		</form>
 							</article>
 					</div>
 

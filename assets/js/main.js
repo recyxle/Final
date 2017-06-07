@@ -418,3 +418,23 @@ function carousel() {
     x[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 2000);
 }
+/*Clear and Submit buttons added my Me, Terry*/
+function doSubmit()
+			{
+				alert("Your form has been submitted.");
+				return;
+			}
+			function doClear()
+			{
+				document.aboutme.name.value = "";
+				document.aboutme.highschool.value = "none";
+				document.aboutme.color.value = "";
+				
+				document.aboutme.class[0].checked = false;
+				document.aboutme.class[1].checked = false;
+				document.aboutme.class[2].checked = false;
+				document.aboutme.disease.value = "";
+				document.aboutme.dogname.value = "none";
+				document.aboutme.born.value = "";
+				return;
+			}
