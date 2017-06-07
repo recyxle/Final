@@ -1,5 +1,5 @@
-# WebSource
-Websouce of Recyxle
-This is just my personal website to replace my current <i><a href="http://recyxlestudios.yolasite.com">recyxlestudios.yolasite.com</a></i>
-Design by <i><a href="http://html5up.net">HTML5UP</a></i>
+# WPC Final
+Created by Terrence Vertina
+This is just how I work on my Final both at home and at school.</a></i>
+Template Design by <i><a href="http://html5up.net">HTML5UP</a></i>
 
